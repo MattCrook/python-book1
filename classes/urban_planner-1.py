@@ -29,6 +29,11 @@ first_tennessee.customers.append(ken)
 
 for customer in first_tennessee.customers:
     print(f'{customer.first_name} {customer.last_name} is a customer of {first_tennessee.business_name}')
+'''
+Mo Silvera is a customer of First Tennessee
+Warner Carpenter is a customer of First Tennessee
+Ken Perkerwicz is a customer of First Tennessee
+'''
 
 # *************************************** #
  # Practice Employee Departments
@@ -87,7 +92,7 @@ company_2.employees.append(bob)
 
 def employee_names():
     for employee in company_1.employees:
-        return employee._name
+      return employee._name
 
 
 print(f'{company_1._name} is in the {company_1._industry} industry and has the following employees {employee_names()}')
